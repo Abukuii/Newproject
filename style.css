@@ -8,8 +8,24 @@ body{
     width: 100%;
     height: 100vh;
     background-color: lime;
-    font-size: 55px;
+    font-size: 35px;
     text-align: center;
     align-items: center;
     justify-content: center;
+    color: red;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.all{
+    display: flex;
+}
+
+.box{
+    width: calc(100%/5 - 20px);
+    height: 300px;
+    margin: 10px;
+    background-color: gray;
+    border: 1px solid blue;
+
 }
